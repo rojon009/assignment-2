@@ -145,3 +145,14 @@ header::before {
   font-weight: 900;
   color: #ffee00;
 }
+
+/* Footer Link */
+.footer-link {
+  text-decoration: none;
+  color: #c9c7c7;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: white;
+}
