@@ -156,3 +156,13 @@ header::before {
   text-decoration: underline;
   color: white;
 }
+
+/* Footer Link Hover */
+.link-social img {
+  filter: grayscale(100%);
+  transition: all 0.3s;
+}
+
+.link-social:hover img {
+  filter: grayscale(0);
+}
